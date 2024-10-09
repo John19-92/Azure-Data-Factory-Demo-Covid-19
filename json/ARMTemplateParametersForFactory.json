@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "dev-ci-cd-demo-adf"
+        },
+        "is_ci_cd_demo_kv_properties_typeProperties_baseUrl": {
+            "value": "https://dev-ci-cd-demo-jjeco-kv.vault.azure.net/"
+        },
+        "is_cicddemodl_access_keys_properties_typeProperties_url": {
+            "value": "https://devcicddemojjecodl.dfs.core.windows.net/"
+        },
+        "is_cicddemodl_managed_identity_properties_typeProperties_url": {
+            "value": "https://devcicddemojjecodl.dfs.core.windows.net/"
+        }
+    }
+}
